@@ -30,7 +30,7 @@ class LocalImagesLoader {
             return;
         }
 
-        let types = ["image/png", "image/jpg", "image/jpeg", "image/gif"];
+        let types = ["image/png", "image/jpg", "image/jpeg", "image/gif", "image/webp"];
         let item = this.data.shift();
 
         if (types.indexOf(item.type) >= 0) {

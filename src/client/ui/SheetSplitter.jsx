@@ -329,7 +329,7 @@ class SheetSplitter extends React.Component {
                                     <td>
                                         <div className="btn back-800 border-color-gray color-white file-upload">
                                             {I18.f("SELECT_TEXTURE")}
-                                            <input type="file" ref="selectTextureInput" accept="image/png,image/jpg,image/jpeg,image/gif" onChange={this.selectTexture} />
+                                            <input type="file" ref="selectTextureInput" accept="image/png,image/jpg,image/jpeg,image/gif,image/webp" onChange={this.selectTexture} />
                                         </div>
                                     </td>
                                     <td>

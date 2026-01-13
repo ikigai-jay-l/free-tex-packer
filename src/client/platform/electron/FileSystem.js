@@ -7,7 +7,7 @@ import I18 from '../../utils/I18';
 import Base64ImagesLoader from '../../utils/Base64ImagesLoader';
 import { Observer, GLOBAL_EVENT } from '../../Observer';
 
-const IMAGES_EXT = ['jpg', 'png', 'gif'];
+const IMAGES_EXT = ['jpg', 'png', 'gif', 'webp'];
 
 let watcher = null;
 
